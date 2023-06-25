@@ -301,7 +301,7 @@
 }
 
 [data-background-color]{
-    color: $white-color;
+    color: #fff;
 
     .title,
     .social-description h2,
@@ -310,7 +310,7 @@
     p.blockquote small,
     h1,h2,h3,h4,h5,h6,a:not(.btn):not(.dropdown-item),
     .icons-container i{
-        color: $white-color;
+        color: #fff;
     }
 
     .separator{
@@ -368,7 +368,7 @@
     .btn.btn-simple{
         background-color: $transparent-bg;
         border-color: $opacity-5;
-        color: $white-color;
+        color: #fff;
 
         &:hover,
         &:hover,

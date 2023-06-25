@@ -5039,6 +5039,7 @@ p {
 .title {
     font-weight: 700;
     padding-top: 30px;
+    color:white
 }
 
 .title.title-up {
@@ -5057,7 +5058,8 @@ p {
 .description,
 .card-description,
 .footer-big p {
-    color: #9A9A9A;
+    /* color: #9A9A9A; */
+    color: #fff;
     font-weight: 300;
 }
 
