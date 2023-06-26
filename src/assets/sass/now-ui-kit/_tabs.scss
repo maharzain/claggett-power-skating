@@ -113,7 +113,7 @@
     background-color: $primary-color;
 
     .nav-item .nav-link{
-        color: $white-color;
+        color: #fff;
         &.active{
           box-shadow: none;
           border-color: rgba(255, 255, 255, 0.5);
