@@ -4,9 +4,9 @@
 * Now UI Kit Angular - v1.4.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/now-ui-kit-angular
+* Product Page: https://www.creative-tim.com/product/claggett-power-skating
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit-angular/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/claggett-power-skating/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
 

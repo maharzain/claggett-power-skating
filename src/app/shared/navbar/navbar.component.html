@@ -21,7 +21,7 @@
       </div>
       <!-- ngbTooltip="Designed by Invision. Coded by Creative Tim" -->
         <div class="navbar-translate">
-            <a class="navbar-brand" [routerLink]="['/index']" placement="bottom" >
+            <a class="navbar-brand" [routerLink]="['/home']" placement="bottom" >
               Claggett Power Skating
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
@@ -33,25 +33,25 @@
         <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="https://www.creative-tim.com/product/claggett-power-skating" target="_blank">
+                  <a class="nav-link" [routerLink]="['/home']">
                       
                       <p>HOME</p>
                   </a>
               </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://creativetimofficial.github.io/claggett-power-skating/documentation/tutorial" target="_blank">
+                    <a class="nav-link" >
                       
                       <p>LESSONS</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://creativetimofficial.github.io/claggett-power-skating/documentation/tutorial" target="_blank">
+                    <a class="nav-link" [routerLink]="['/examples/about']" >
                       
                       <p>ABOUT</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://creativetimofficial.github.io/claggett-power-skating/documentation/tutorial" target="_blank">
+                    <a class="nav-link" [routerLink]="['/examples/contact']">
                       <p>CONTACT</p>
                     </a>
                 </li>

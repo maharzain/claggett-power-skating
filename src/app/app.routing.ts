@@ -8,14 +8,18 @@ import { LandingComponent } from './examples/landing/landing.component';
 import { LoginComponent } from './examples/login/login.component';
 import { ProfileComponent } from './examples/profile/profile.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
+import { AboutComponent } from './examples/about/about.component';
+import { ContactComponent } from './examples/contact/contact.component';
 
 const routes: Routes =[
-    { path: '', redirectTo: 'index', pathMatch: 'full' },
-    { path: 'index',                component: ComponentsComponent },
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: 'home',                component: ComponentsComponent },
     { path: 'nucleoicons',          component: NucleoiconsComponent },
     { path: 'examples/landing',     component: LandingComponent },
     { path: 'examples/login',       component: LoginComponent },
-    { path: 'examples/profile',     component: ProfileComponent }
+    { path: 'examples/profile',     component: ProfileComponent },
+    { path: 'examples/about',     component: AboutComponent },
+    { path: 'examples/contact',     component: ContactComponent }
 ];
 
 @NgModule({
